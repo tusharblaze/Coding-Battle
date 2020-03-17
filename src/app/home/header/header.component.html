@@ -1,0 +1,21 @@
+<div class="row">
+    <img src="http://necromancers.dan-fisher.com/assets/img/logo.png" alt="logo"
+        style="position: absolute;top:70%;left:20px;z-index: 1; ">
+    <div class="navbar">
+
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-10">
+           <span> <a mat-button>Home</a></span>
+           <span><a mat-button>Matches</a></span>
+           <span><a mat-button>Teams</a></span>
+           <span><a mat-button>News</a></span>
+           <span><a mat-button>Shope</a></span>
+           <span><a mat-button>Bag</a></span>
+           <span><a mat-button *ngIf="!(users | async)?.uid" href="#" (click)="login()">Login</a></span>
+           <span><a mat-button *ngIf="!(users | async)?.uid" routerLink = '/signup'>Sign Up</a></span>
+           <span><span><a mat-button *ngIf="(users | async)?.uid">Hello {{userEmail}}</a></span></span>
+           <span mat-button *ngIf="(users | async)?.uid" href="#" (click)="logout()">Logout</span>
+        </div>
+    </div>
+</div>

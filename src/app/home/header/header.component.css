@@ -1,0 +1,13 @@
+.navbar {
+    overflow: hidden;
+    background-color: rgba(204, 197, 197, 0.288);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+  }
+  
+a{
+    padding: 15px 25px;
+    color:white;
+}

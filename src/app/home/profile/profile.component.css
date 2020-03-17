@@ -1,0 +1,17 @@
+.back-pic{
+    background-image: url('https://www.elsetge.cat/myimg/f/63-635172_suicide-sheep-wallpapers-hd.jpg');
+    border:3px solid rgb(214, 206, 206)
+}
+.col-md-3 img{
+    border-radius:60%;
+    border: 2px solid white;
+}
+.stuck{
+    flex:5;
+    order: 2;
+    overflow-y: scroll;
+    max-height: 700px;
+    height: 550px;
+    position:relative;
+    overflow-wrap: normal;
+}

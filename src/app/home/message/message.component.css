@@ -1,0 +1,8 @@
+.chip{
+    background-color: chartreuse;
+    color:black;
+    border-radius: 5px;
+}
+.chip:hover{
+    box-shadow: 0 0 10px greenyellow,0 0 10px greenyellow, 0 0 80px rgb(24, 160, 24);
+}

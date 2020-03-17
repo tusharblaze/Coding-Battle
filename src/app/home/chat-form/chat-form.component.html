@@ -1,0 +1,8 @@
+<div class="row col-md-6 float-right">
+ <div class="col-md-8">
+ <input #field class="form-control" [(ngModel)]="message" (keydown)="handlesubmit($event,field)">
+</div>
+<div class="col-md-4">
+ <button mat-raised-button color="primary" (click)="send(field)">Send</button>
+</div>
+</div>

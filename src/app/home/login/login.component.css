@@ -1,0 +1,54 @@
+.navbar {
+    overflow: hidden;
+    background-color: rgba(204, 197, 197, 0.288);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+  }
+  
+a{
+    padding: 15px 25px;
+    color:white;
+}
+form{
+    padding:50px 0;
+    width:100%;
+    background-image:linear-gradient(to right,black,lightgray,gray);
+    text-align: center;
+    height: max-content;
+}
+
+form {
+    display: block;
+    justify-content: center;
+  }
+
+  .mat-form-field {
+    width: 70%;
+    min-width: 300px;
+  }
+
+  .button {
+      display: inline;
+  }
+.fg1{
+    padding:0px;
+    width:100%;
+    background-image:linear-gradient(to right,gray,lightgray,black);
+    text-align: center;
+    margin-top: 0;
+}
+
+.btn1{
+  background-color: rgb(50, 230, 26);
+  box-shadow: 0 0 20px greenyellow;
+  padding: 10px;
+  width:40%;
+  font-weight: bold;
+  margin:auto;
+}
+
+.btn1:hover{
+  box-shadow: 0 0 20px greenyellow,0 0 20px greenyellow,0 0 80px rgb(50, 230, 26);
+}

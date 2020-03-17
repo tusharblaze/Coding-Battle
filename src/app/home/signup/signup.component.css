@@ -1,0 +1,22 @@
+.signup{
+    background-image: linear-gradient(120deg,rgb(156, 17, 221),rgb(10, 198, 231),rgb(156, 17, 221));
+    padding: 20px;
+    font-weight: bold;
+    margin:10% 30%;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.signup:hover{
+    box-shadow: 0 0 10px rgb(156, 17, 221), 0 0 10px rgb(10, 198, 231),0 0 80px rgb(156, 17, 221) ;
+    background-image: linear-gradient(90deg,rgb(156, 17, 221),rgb(10, 198, 231),rgb(156, 17, 221));
+ 
+}
+
+.btn{
+    width:50%;
+    width: max-content;
+}
+.btn-custom{
+    background-image: linear-gradient(120deg,rgb(156, 17, 221),rgb(10, 198, 231),rgb(156, 17, 221));
+}

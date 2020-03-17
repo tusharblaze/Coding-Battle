@@ -1,0 +1,13 @@
+.chip{
+    width: 70%;
+    padding: 3px;
+    margin:10px 0px;
+    border-radius: 5px;
+    background-image:green;
+    color: white;
+}
+
+.chip:hover{
+    background-color: rgb(50, 230, 26);
+    box-shadow: 0 0 20px greenyellow,0 0 20px greenyellow,0 0 80px rgb(50, 230, 26);
+}
